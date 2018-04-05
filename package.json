@@ -1,0 +1,23 @@
+{
+  "name": "transfer-spotify-account",
+  "version": "1.0.0",
+  "description": "Transfer your musics, your playlists, your followed artists from one Spotify account to another",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Freebios/transfer-spotify-account.git"
+  },
+  "author": "Freebios",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Freebios/transfer-spotify-account/issues"
+  },
+  "homepage": "https://github.com/Freebios/transfer-spotify-account#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "request": "^2.85.0"
+  }
+}

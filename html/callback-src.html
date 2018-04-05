@@ -1,0 +1,6 @@
+<script>
+	let params = document.URL.split("#")[1]
+	var xmlHttp = new XMLHttpRequest();
+	xmlHttp.open("GET", "http://localhost:8080/send-token?type=src&" + params, false);
+	xmlHttp.send();
+</script>
